@@ -5,3 +5,24 @@ This project implements a CPU-efficient chatbot system leveraging the power of *
 
 It supports **PDF ingestion**, **contextual question answering**, and real-time conversational responses through an intuitive **Streamlit interface**, designed to support research and domain-specific querying.
 
+## 🚀 Features
+
+- 💬 Dual Chatbot Architectures:
+  - **RAG-based chatbot** that dynamically retrieves information from uploaded documents using FAISS indexing.
+  - **Fine-Tuned Llama 3 model** (using Alpaca dataset) to understand and respond to user queries within a focused domain.
+
+- ⚙️ **Intel CPU Optimization**:
+  - Utilizes Intel Extension for Transformers to accelerate inference on Intel hardware.
+  - Benchmarking done across systems with various CPU configurations (Core i3, i5, i7, i9).
+
+- 📄 **Document-Aware Question Answering**:
+  - Upload and process PDF documents
+  - Ask domain-specific questions and receive accurate, contextual answers
+
+- 🧪 **Performance Evaluation**:
+  - Metrics evaluated: **Response Time**, **Perplexity**, and **Loss**
+  - Graphical visualizations to compare hardware efficiency
+
+- 🌐 **Streamlit UI**:
+  - Clean, minimal front-end for document upload and chatbot interaction
+  - Visual response display and history tracking
