@@ -26,3 +26,32 @@ It supports **PDF ingestion**, **contextual question answering**, and real-time 
 - 🌐 **Streamlit UI**:
   - Clean, minimal front-end for document upload and chatbot interaction
   - Visual response display and history tracking
+ 
+## 🛠️ Tech Stack
+
+- **LLama 3** (Meta AI)
+- **FAISS** for vector indexing
+- **Intel Extension for Transformers** (CPU acceleration)
+- **Streamlit** (UI)
+- **PyTorch**, **Langchain**, **Hugging Face Transformers**
+
+## 📂 Project Structure
+
+intel_unnti_chatbot/
+├── app.py # Streamlit front-end
+├── rag_module.py # Retrieval-Augmented Generation logic
+├── fine_tune_model.py # Fine-tuning logic for LLama 3
+├── utils/ # Helper scripts and processing tools
+├── evaluation/ # Metric evaluation (loss, perplexity)
+├── requirements.txt # Dependency list
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/AestheticCoder-rjp/Intel_Unnati_Program
+
+
+
+
