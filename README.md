@@ -51,6 +51,20 @@ intel_unnti_chatbot/
 
 ```bash
 git clone https://github.com/AestheticCoder-rjp/Intel_Unnati_Program
+```
+
+2. Install the required dependencies:
+   
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Create a `.env` file in the root directory and add your GROQ API key:
+
+```bash
+GROQ_API_KEY=your_groq_api_key
+```
 
 
 
