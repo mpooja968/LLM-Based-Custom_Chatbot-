@@ -37,11 +37,19 @@ GROQ_API_KEY=your_groq_api_key
 ```
 
 **Running the Application**
+
 To start the Streamlit application, run:
 
 ```bash
 streamlit run app.py
 ```
+**Usage**
+
+- **Upload a PDF:** Use the sidebar to upload your PDF document and click "Process".
+
+- **Ask Questions:** Enter your questions in the input box and receive responses based on the PDF content.
+
+- **View Processing Time:** The application displays the processing time for each query.
 
 ## 🚀 Features
 
