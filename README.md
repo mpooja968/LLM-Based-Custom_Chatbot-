@@ -19,7 +19,7 @@ It supports **PDF ingestion**, **contextual question answering**, and real-time 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/AestheticCoder-rjp/Intel_Unnati_Program
+git clone https://github.com/mpooja968/LLM-Based-Custom_Chatbot-
 ```
 
 2. Install the required dependencies:
